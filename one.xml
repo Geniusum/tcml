@@ -1,0 +1,20 @@
+<data>
+    <info>
+        <title>My TCML page</title>
+        <!-- <icon>path/to/icon.ico</icon> -->
+    </info>
+    <style>
+        <set tag="text" id="red" foreground="red"/>
+    </style>
+    <data>
+        <var name="views" value="12"/>
+    </data>
+    <page background="#464646" foreground="white" font="Arial" font-size="24">
+        <centered>
+            <header>Welcome here!</header>
+            <sub>You're on my page</sub>
+            <text id="red">It's a red text</text>
+            <text>We have <var>views</var> views</text>
+        </centered>
+    </page>
+</data>
